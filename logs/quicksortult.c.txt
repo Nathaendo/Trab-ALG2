@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void preenche_vetor(int vetor[]){
+    for(int i = 1;i <= 1024;i++)
+        vetor[i] = rand()%2049;
+;
+}
+void imprime_vetor(int vetor[]){
+    printf("100 primeiros elementos da lista:");
+    for(int i = 1; i <= 100;i++){
+        if(i==1)
+            printf("[%d", vetor[i]);
+        else if(i == 100)
+            printf(" %d]", vetor[i]);
+        else
+            printf(" %d",vetor[i]);
+    }
+    printf("\n");
+}
+
+int particionar(int vetor[],int inicio,int fim, int*comp,int *trocas){
+    int aux,idx_pivo;
+    int pivo = vetor[fim];      //pivo igual ultimo elemento
+    idx_pivo = inicio; 
+    for(int i = inicio;i<fim;i++){
+        (*comp)++;
+        if(vetor[i]<=pivo){
+            (*trocas)++;
+            aux = vetor[i];
+            vetor[i] = vetor[idx_pivo];
+            vetor[idx_pivo] = aux;
+            idx_pivo++;
+        }
+    }
+    (*trocas)++;
+    vetor[fim] = vetor[idx_pivo];       //alocar o pivo para a posilão correta
+    vetor[idx_pivo] = pivo;
+    return idx_pivo;   //posição do pivo
+}
+void quicksort(int vetor[],int ini,int fim,int *comp,int *trocas){
+    if(ini < fim){
+        int pospivo = particionar(vetor,ini,fim,comp,trocas);
+        quicksort(vetor,ini,pospivo-1,comp,trocas); 
+        quicksort(vetor,pospivo+1,fim,comp,trocas);
+    }
+}
+
+int main(){
+    srand(time(NULL));
+    int vetor[1025];
+    int trocas,comp;
+    trocas = comp = 0;
+    preenche_vetor(vetor);
+    printf("Vetor desordenado:\n");
+    imprime_vetor(vetor);
+    quicksort(vetor,1,1024,&comp,&trocas);
+    printf("Vetor ordenado:\n");
+    imprime_vetor(vetor);
+    printf("comparações: %d\n", comp);
+    printf("trocas: %d\n",trocas);
+    return 0;
+}

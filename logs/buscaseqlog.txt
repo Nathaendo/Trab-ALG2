@@ -1,0 +1,39 @@
+CHAVE: 225
+Não está no vetor
+Comparações: 1024
+CHAVE: 740
+Está no index: 876
+Comparações: 149
+CHAVE: 987
+Não está no vetor
+Comparações: 1024
+CHAVE: 987
+Não está no vetor
+Comparações: 1024
+CHAVE: 260
+Está no index: 978
+Comparações: 47
+CHAVE: 260
+Está no index: 978
+Comparações: 47
+CHAVE: 1183
+Não está no vetor
+Comparações: 1024
+CHAVE: 1183
+Não está no vetor
+Comparações: 1024
+CHAVE: 873
+Está no index: 677
+Comparações: 348
+CHAVE: 873
+Está no index: 677
+Comparações: 348
+CHAVE: 1283
+Não está no vetor
+Comparações: 1024
+CHAVE: 1949
+Está no index: 782
+Comparações: 243
+CHAVE: 1949
+Está no index: 782
+Comparações: 243

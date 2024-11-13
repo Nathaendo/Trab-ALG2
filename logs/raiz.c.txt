@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+double sqrt(double num){
+    if(num == 0)
+        return 0;
+    double erro = 0.00001;    //precisão da aroximação;
+    double estimativa = num;
+    while(1){   //metódo de newton
+        double nova_estimativa = 0.5*(estimativa + (num/estimativa));
+        if(estimativa - nova_estimativa < erro){
+            break;
+        }
+        estimativa = nova_estimativa;
+    }
+    return estimativa;
+}
+int main(){
+    srand(time(NULL));
+    double num;
+    num = rand()%2049;
+    double resul = sqrt(num);
+    printf("NUM: %f\n",num);
+    printf("Raiz: %f\n",resul);
+    return 0;
+}

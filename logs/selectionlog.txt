@@ -1,0 +1,110 @@
+caso 0
+10 primeiros elementos da lista:[1744 859 632 722 1935 724 243 1346 1578 281]
+caso 1
+10 primeiros elementos da lista:[0 859 632 722 1935 724 243 1346 1578 281]
+caso 2
+10 primeiros elementos da lista:[0 2 632 722 1935 724 243 1346 1578 281]
+caso 3
+10 primeiros elementos da lista:[0 2 6 722 1935 724 243 1346 1578 281]
+caso 4
+10 primeiros elementos da lista:[0 2 6 7 1935 724 243 1346 1578 281]
+caso 5
+10 primeiros elementos da lista:[0 2 6 7 12 724 243 1346 1578 281]
+caso 6
+10 primeiros elementos da lista:[0 2 6 7 12 12 243 1346 1578 281]
+caso 7
+10 primeiros elementos da lista:[0 2 6 7 12 12 15 1346 1578 281]
+caso 8
+10 primeiros elementos da lista:[0 2 6 7 12 12 15 17 1578 281]
+caso 9
+10 primeiros elementos da lista:[0 2 6 7 12 12 15 17 18 281]
+comparações: 523776
+trocas: 1018
+caso 0
+10 primeiros elementos da lista:[1093 1415 747 24 1800 1490 450 1830 1857 472]
+caso 1
+10 primeiros elementos da lista:[3 1415 747 24 1800 1490 450 1830 1857 472]
+caso 2
+10 primeiros elementos da lista:[3 4 747 24 1800 1490 450 1830 1857 472]
+caso 3
+10 primeiros elementos da lista:[3 4 5 24 1800 1490 450 1830 1857 472]
+caso 4
+10 primeiros elementos da lista:[3 4 5 7 1800 1490 450 1830 1857 472]
+caso 5
+10 primeiros elementos da lista:[3 4 5 7 9 1490 450 1830 1857 472]
+caso 6
+10 primeiros elementos da lista:[3 4 5 7 9 11 450 1830 1857 472]
+caso 7
+10 primeiros elementos da lista:[3 4 5 7 9 11 13 1830 1857 472]
+caso 8
+10 primeiros elementos da lista:[3 4 5 7 9 11 13 14 1857 472]
+caso 9
+10 primeiros elementos da lista:[3 4 5 7 9 11 13 14 17 472]
+comparações: 523776
+trocas: 1015
+caso 0
+10 primeiros elementos da lista:[1998 36 1082 1209 1789 1726 1825 1425 811 778]
+caso 1
+10 primeiros elementos da lista:[1 36 1082 1209 1789 1726 1825 1425 811 778]
+caso 2
+10 primeiros elementos da lista:[1 1 1082 1209 1789 1726 1825 1425 811 778]
+caso 3
+10 primeiros elementos da lista:[1 1 3 1209 1789 1726 1825 1425 811 778]
+caso 4
+10 primeiros elementos da lista:[1 1 3 3 1789 1726 1825 1425 811 778]
+caso 5
+10 primeiros elementos da lista:[1 1 3 3 4 1726 1825 1425 811 778]
+caso 6
+10 primeiros elementos da lista:[1 1 3 3 4 5 1825 1425 811 778]
+caso 7
+10 primeiros elementos da lista:[1 1 3 3 4 5 5 1425 811 778]
+caso 8
+10 primeiros elementos da lista:[1 1 3 3 4 5 5 5 811 778]
+caso 9
+10 primeiros elementos da lista:[1 1 3 3 4 5 5 5 7 778]
+comparações: 523776
+trocas: 1020
+caso 0
+10 primeiros elementos da lista:[324 1311 15 743 2035 1420 1292 1831 1595 7]
+caso 1
+10 primeiros elementos da lista:[3 1311 15 743 2035 1420 1292 1831 1595 7]
+caso 2
+10 primeiros elementos da lista:[3 7 15 743 2035 1420 1292 1831 1595 1311]
+caso 3
+10 primeiros elementos da lista:[3 7 7 743 2035 1420 1292 1831 1595 1311]
+caso 4
+10 primeiros elementos da lista:[3 7 7 9 2035 1420 1292 1831 1595 1311]
+caso 5
+10 primeiros elementos da lista:[3 7 7 9 9 1420 1292 1831 1595 1311]
+caso 6
+10 primeiros elementos da lista:[3 7 7 9 9 13 1292 1831 1595 1311]
+caso 7
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 1831 1595 1311]
+caso 8
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 14 1595 1311]
+caso 9
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 14 15 1311]
+comparações: 523776
+trocas: 1009
+caso 0
+10 primeiros elementos da lista:[324 1311 15 743 2035 1420 1292 1831 1595 7]
+caso 1
+10 primeiros elementos da lista:[3 1311 15 743 2035 1420 1292 1831 1595 7]
+caso 2
+10 primeiros elementos da lista:[3 7 15 743 2035 1420 1292 1831 1595 1311]
+caso 3
+10 primeiros elementos da lista:[3 7 7 743 2035 1420 1292 1831 1595 1311]
+caso 4
+10 primeiros elementos da lista:[3 7 7 9 2035 1420 1292 1831 1595 1311]
+caso 5
+10 primeiros elementos da lista:[3 7 7 9 9 1420 1292 1831 1595 1311]
+caso 6
+10 primeiros elementos da lista:[3 7 7 9 9 13 1292 1831 1595 1311]
+caso 7
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 1831 1595 1311]
+caso 8
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 14 1595 1311]
+caso 9
+10 primeiros elementos da lista:[3 7 7 9 9 13 14 14 15 1311]
+comparações: 523776
+trocas: 1009

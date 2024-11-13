@@ -1,0 +1,257 @@
+TPALGORITMOSII
+Menu Principal 
+Teste Simples: 1
+Testar mil vezes: 2
+Encerrar: Qualquer outro número
+1
+
+Teste Simples 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 6
+
+Busca Sequencial
+Chave Aleatoria: 1
+Escolha a Chave: 2
+1
+CHAVE: 1494
+Está no índex: 497
+Comparações: 528
+Quer continuar no teste simples?
+SIM: 1
+NAO: 0
+1
+
+Teste Simples 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 7
+
+Busca Binária
+Chave Aleatoria: 1
+Escolha a Chave: 2
+1
+CHAVE: 579
+Está no índex: 299
+Comparações: 10
+Quer continuar no teste simples?
+SIM: 1
+NAO: 0
+1
+
+Teste Simples 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 7
+
+Busca Binária
+Chave Aleatoria: 1
+Escolha a Chave: 2
+2
+DIGITE A CHAVE[0,2048]: 1024
+CHAVE: 1024
+Chave não está no vetor
+Comparações: 10
+Quer continuar no teste simples?
+SIM: 1
+NAO: 0
+0
+
+TPALGORITMOSII
+Menu Principal 
+Teste Simples: 1
+Testar mil vezes: 2
+Encerrar: Qualquer outro número
+2
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 1
+
+Selection Sort
+Comparação Total: 523776000
+Comparação Média: 523776
+Comparação Desvio: 0.000000
+Trocas Total: 1016180
+Trocas Média: 1016
+Trocas Desvio: 2.499606
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 2
+
+Shell Sort Sedgewick
+Comparação Total: 14956233
+Comparação Média: 14956
+Comparação Desvio: 448.907425
+Trocas Total: 9349233
+Trocas Média: 9349
+Trocas Desvio: 448.907425
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 3
+
+Shell Sort Hibbard
+Comparação Total: 15927585
+Comparação Média: 15927
+Comparação Desvio: 375.304920
+Trocas Total: 7715585
+Trocas Média: 7715
+Trocas Desvio: 375.304920
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 4
+
+Quick Sort Média
+Comparação Total: 10113230
+Comparação Média: 10113
+Comparação Desvio: 199.547383
+Trocas Total: 3408330
+Trocas Média: 3408
+Trocas Desvio: 28.058261
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 5
+
+Quick Sort Último
+Comparação Total: 11292494
+Comparação Média: 11292
+Comparação Desvio: 628.600150
+Trocas Total: 6423425
+Trocas Média: 6423
+Trocas Desvio: 600.948623
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 6
+Chave Aleatoria: 1
+Escolha a Chave: 2
+1
+
+Busca Sequencial
+Comparação Total: 810413
+Comparação Média: 810
+Comparação Desvio: 322.699583
+Trocas Total: 0
+Trocas Média: 0
+Trocas Desvio: 0.000000
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+1
+
+Mil Testes 
+Selection Sort: 1
+Shell Sort Sedgewick: 2
+Shell Sort Hibbard: 3
+Quick Sort Média: 4
+Quick Sort Último: 5
+Busca Sequencial: 6
+Busca Binária: 7
+Sair: Qualquer número diferente
+SELECIONE O TESTE: 7
+Chave Aleatoria: 1
+Escolha a Chave: 2
+1
+
+Busca Binária
+Comparação Total: 9478
+Comparação Média: 9
+Comparação Desvio: 1.201666
+Trocas Total: 0
+Trocas Média: 0
+Trocas Desvio: 0.000000
+Quer continuar no mil testes?
+SIM: 1
+NAO: 0
+0
+
+TPALGORITMOSII
+Menu Principal 
+Teste Simples: 1
+Testar mil vezes: 2
+Encerrar: Qualquer outro número
+0

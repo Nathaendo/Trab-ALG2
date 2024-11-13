@@ -1,0 +1,45 @@
+CHAVE: 1360
+Não está no vetor
+Comparações: 10
+CHAVE: 1392
+Está no index: 688
+Comparações: 6
+CHAVE: 943
+Está no index: 490
+Comparações: 9
+CHAVE: 1933
+Não está no vetor
+Comparações: 10
+CHAVE: 1489
+Não está no vetor
+Comparações: 10
+CHAVE: 175
+Está no index: 77
+Comparações: 10
+CHAVE: 1293
+Não está no vetor
+Comparações: 10
+CHAVE: 211
+Não está no vetor
+Comparações: 10
+CHAVE: 314
+Não está no vetor
+Comparações: 10
+CHAVE: 1505
+Está no index: 757
+Comparações: 10
+CHAVE: 1395
+Está no index: 713
+Comparações: 10
+CHAVE: 1459
+Está no index: 731
+Comparações: 10
+CHAVE: 1083
+Está no index: 536
+Comparações: 7
+CHAVE: 320
+Está no index: 178
+Comparações: 9
+CHAVE: 469
+Não está no vetor
+Comparações: 10

@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+void preenche_vetor(int vetor[]){
+    for(int i = 1;i <= 1024;i++)
+        vetor[i] = rand()%2049;
+;
+}
+void imprime_vetor(int vetor[]){
+    printf("10 primeiros elementos da lista:");
+    for(int i = 1; i <= 10;i++){
+        if(i==1)
+            printf("[%d", vetor[i]);
+        else if(i == 10)
+            printf(" %d]", vetor[i]);
+        else
+            printf(" %d",vetor[i]);
+    }
+    printf("\n");
+}
+void selectionsort(int vetor[], int *comparacoes,int *trocas){
+    int mnr_idx;
+    int aux;
+    for(int i = 1; i < 1024;i++){
+        if(i<=10){
+            printf("caso %d\n",i-1);
+            imprime_vetor(vetor);
+        }
+        mnr_idx = i;
+        for(int j = i+1;j<=1024;j++){
+            (*comparacoes)++;
+            if(vetor[j] < vetor[mnr_idx])
+                mnr_idx = j;
+        }
+        if(mnr_idx != i)
+            (*trocas)++;
+        aux = vetor[i];
+        vetor[i] = vetor[mnr_idx];
+        vetor[mnr_idx] = aux;
+    }
+}
+
+int main(){
+    srand(time(NULL));
+    int vetor[1025], comparacoes,trocas;
+    comparacoes = trocas = 0;
+    preenche_vetor(vetor);
+    selectionsort(vetor, &comparacoes, &trocas);
+    printf("comparações: %d\n", comparacoes);
+    printf("trocas: %d\n",trocas);
+    return 0;
+}

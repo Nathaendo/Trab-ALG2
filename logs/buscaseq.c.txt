@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void preenche_vetor(int vetor[]){
+    for(int i = 1;i <= 1024;i++)
+        vetor[i] = rand()%2049;
+}
+
+int buscaseq(int vetor[],int *comp,int chave){   //retorna o idx da chave caso exista e 0 caso não
+    for(int i = 1024; i > 0;i--){
+        (*comp)++;
+        if(vetor[i] == chave)
+            return i;
+    }
+    return 0;
+}
+int main(){
+    srand(time(NULL));
+    int vetor[1025];
+    preenche_vetor(vetor);
+    int comp,chave = rand()%2049;
+    printf("CHAVE: %d\n",chave);
+    int resul =buscaseq(vetor,&comp,chave);
+    if(resul)
+        printf("Está no index: %d\nComparações: %d\n", resul,comp);
+    else
+        printf("Não está no vetor\nComparações: %d\n",comp);
+    return 0;
+}
