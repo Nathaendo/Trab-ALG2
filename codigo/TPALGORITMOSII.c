@@ -242,6 +242,7 @@ void testemil(){
         printf("Quick Sort Último: 5\n");
         printf("Busca Sequencial: 6\n");
         printf("Busca Binária: 7\n");
+        printf("TESTAR TODOS: 8\n");
         printf("Sair: Qualquer número diferente\n");
         printf("SELECIONE O TESTE: ");
         scanf("%d",&entrada);
@@ -303,6 +304,59 @@ void testemil(){
                 break;
             case 7:
                 chave = escolhachave();
+                printf("\nBusca Binária\n");                       //chave aleatoria ou escolhida;
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    quicksort_media(vetor,1,1024,&dntcare,&dntcare);  //necessário ordenar o vetor;
+                    busca_bin(vetor,1,1024,&comps[i],chave);
+                }
+                resultados(comps,trocas);
+                break;
+            case 8:
+                chave = escolhachave();
+                printf("\nSelection Sort\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    selectionsort(vetor,&comps[i],&trocas[i]);
+                }
+                resultados(comps,trocas);
+                printf("\nShell Sort Sedgewick\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    shellsedgewick(vetor,&comps[i],&trocas[i]);
+                }
+                resultados(comps,trocas);
+                printf("\nShell Sort Hibbard\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    shellsorthibbard(vetor,&comps[i],&trocas[i]);
+                }
+                resultados(comps,trocas);
+                printf("\nQuick Sort Média\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    quicksort_media(vetor,1,1024,&comps[i],&trocas[i]);
+                }
+                resultados(comps,trocas);
+                printf("\nQuick Sort Último\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    quicksort_ult(vetor,1,1024,&comps[i],&trocas[i]);
+                }
+                resultados(comps,trocas);
+                printf("\nBusca Sequencial\n");
+                for(int i = 0;i< 1000;i++){
+                    preenche_vetor(vetor);
+                    comps[i] = trocas[i] = 0;
+                    buscaseq(vetor,&comps[i],chave);
+                }
+                resultados(comps,trocas);
                 printf("\nBusca Binária\n");                       //chave aleatoria ou escolhida;
                 for(int i = 0;i< 1000;i++){
                     preenche_vetor(vetor);
